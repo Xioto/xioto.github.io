@@ -27,20 +27,7 @@
 
 <div id="loader"></div>
 
-
-<script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
-  
+<div style="display:none;" id="myDiv" class="animate-bottom">
   <div class="wrapper">
       <header>
         <h1><a href="https://xioto.github.io/test/">test</a></h1>
@@ -106,6 +93,20 @@ function showPage() {
       </footer>
     </div>
     <script src="/test/assets/js/scale.fix.js"></script>
+</div>
 
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 </html>
