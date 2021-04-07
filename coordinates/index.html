@@ -17,15 +17,35 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <form><!--start of form-->
-            <label for="fname">Name</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">X</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            <label for="lname">Y</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            <label for="lname">Z</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
+<form
+  action="https://formspree.io/f/xgerezkk"
+  method="POST"
+  enctype="multipart/form-data">
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Name:
+    <textarea name="message"></textarea>
+  </label>
+  <label>
+    X:
+    <textarea name="message"></textarea>
+  </label>
+  <label>
+    Y:
+    <textarea name="message"></textarea>
+  </label>
+  <label>
+    Z:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
           </form><!--end of form-->       
     </body><!--end of body-->
 </html><!--end of html-->
