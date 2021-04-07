@@ -17,7 +17,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<form
+<!--<form
   action="https://formspree.io/f/xgerezkk"
   method="POST"
   enctype="multipart/form-data">
@@ -41,11 +41,31 @@
     Z:
     <textarea name="message"></textarea>
   </label>
-  <!-- your other form fields go here -->
-
   <button type="submit">Send</button>
-</form>
+</form>-->
 
-          </form><!--end of form-->       
+
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgerezkk" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Minecraft Username</label>
+      <input type="text" name="name" id="full-name" placeholder="" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+      <label for="message">Name</label>
+      <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <label for="message">X</label>
+      <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <label for="message">Y</label>
+      <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      <label for="message">Z</label>
+      <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+
     </body><!--end of body-->
 </html><!--end of html-->
