@@ -563,6 +563,19 @@ section {
   border: 1px solid #149ddd;
 }
 
+.services .icon2 {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #ff0000;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #ff0000;
+}
+
 .services .icon i {
   color: #fff;
   font-size: 24px;
@@ -574,6 +587,18 @@ section {
 
 .services .icon-box:hover .icon i {
   color: #149ddd;
+}
+
+.services .icon-box2:hover .icon {
+  background: rgb(255, 255, 255);
+}
+
+.services .icon-box2:hover .icon i {
+  color: #ff0000;
+}
+
+.services .icon-box2 {
+  margin-bottom: 20px;
 }
 
 .services .title {
