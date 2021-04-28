@@ -2,6 +2,6 @@
 <head>
 <title>Dictionary</title>
 <?PHP
-echo shell_exec("python dictionary.py \"Parameter 1\"");
+echo shell_exec("python code.py 'parameter1'");
 ?>
 </head>
