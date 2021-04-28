@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>run my python files</title>
+<title>Dictionary</title>
 <?PHP
 echo shell_exec("python dictionary.py \"Parameter 1\"");
 ?>
