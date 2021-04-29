@@ -1,13 +1,12 @@
-<!DOCTYPE html>
 <html>
-<body>
-
-<h1>My first PHP page</h1>
-
-<?php
-    $command = escapeshellcmd('./code.py');
-    $output = shell_exec($command);
-    echo $output;
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php
+$command = escapeshellcmd('code.py');
+$output = shell_exec($command);
+echo $output;
 ?>
-</body>
+ </body>
 </html>
