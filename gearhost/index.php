@@ -3,10 +3,7 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php
-$command = escapeshellcmd('code.py');
-$output = shell_exec($command);
-echo $output;
-?>
+ <input type="text" name="name"><br>
+ <?php system("python code.py ".$_POST["name"]); ?>
  </body>
 </html>

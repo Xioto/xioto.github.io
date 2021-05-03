@@ -1,3 +1,6 @@
+import cgitb
+cgitb.enable()
+start_response('200 OK', [('Content-Type', 'text/html')])
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
 toencrypt = input ("enter a message to encrypt: ")
 toencrypt = toencrypt.upper()
