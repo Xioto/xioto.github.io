@@ -1,26 +1,11 @@
     <html>
 
         <head>
-            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.2/brython.min.js"></script>
-            <script type="text/javascript" src="./assets/js/index.js"></script>
+
         </head>
 
         <body onload="brython()">
-<script type="text/python">
-alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
-toencrypt = input ("enter a message to encrypt: ")
-toencrypt = toencrypt.upper()
-shift = int(input("a whole number from 1-25."))
-encrypted = ""
-for character in toencrypt:
-    pos = alphabet.find(character)
-    newpos = pos + shift
-    if character in alphabet:
-        encrypted = encrypted + alphabet[newpos]
-    else:
-        encrypted = encrypted + character
-print("message is", encrypted)
-</script>
+<iframe src="https://trinket.io/embed/python/d6148d25cb?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         </body>
 
     </html>
