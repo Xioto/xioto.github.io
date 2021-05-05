@@ -16,12 +16,12 @@ try{
     ;$locals.$line_info = "4,__main__";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
     $locals___main__["shift"] = $B.$call(_b_.int)($B.$call(_b_.input)("a whole number from 1-25."));
     ;$locals.$line_info = "5,__main__";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
-    $locals___main__["encrypted"] = "";
+    $locals___main__["encrypted"] = ".";
     ;$locals.$line_info = "6,__main__";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
-    var $iter403 = $locals___main__["toencrypt"];$locals["$next403"] = $B.$getattr($B.$iter($iter403),"__next__")
+    var $iter409 = $locals___main__["toencrypt"];$locals["$next409"] = $B.$getattr($B.$iter($iter409),"__next__")
     while(true){
         try{
-            $locals___main__["character"] = $locals["$next403"]();
+            $locals___main__["character"] = $locals["$next409"]();
         }
         catch($err){if($B.is_exc($err, [_b_.StopIteration])){break;}else{throw($err)}}
         ;$locals.$line_info = "7,__main__";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
