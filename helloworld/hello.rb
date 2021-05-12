@@ -1,0 +1,1 @@
+ woprint "Hello, World!\n"
