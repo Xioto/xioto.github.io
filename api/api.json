@@ -1,28 +1,13 @@
 {
-    "name": "Gaurav Ghati",
-    "phone": "+91 9067365762",
-    "mail": "gauravghati225@gmail.com",
+    "name": "Xioto",
+    "mail": "xioto@xioto.tech",
 
-    "bio": "MY BIO",
-    "fun": "FUN STATEMENT",
+    "bio": "Playing a game called "Life",
 
-    "github": "https://github.com/gauravghati/",
-    "twitter": "https://twitter.com/GauravGhati/",
-    "linkedin": "http://linkedin.com/in/gauravghati/",
+    "github": "https://github.com/Xioto/",
+    "twitter": "https://twitter.com/Xioto_/",
 
     "aboutme": {
-        "para1": "This is Paragraph 1",
-        "para2": "This is Paragraph 2"
+        "para1": "I have a basic knowledge of HTML and CSS and I am interested in Network Shares",
     },
-
-    "volunteer": {
-        "tfi": {
-            "heading": "Teach For India",
-            "description": "description of TFI"
-        },
-        "pisb": {
-            "heading": "PICT IEEE Student Branch",
-            "description": "description of PISB"
-        }
-    }
 }
